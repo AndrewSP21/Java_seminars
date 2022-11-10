@@ -1,13 +1,5 @@
 import java.util.Stack;
 
-public class ImplementQueueUsingStacks {
-    public static void main(String[] args) {
-        MyQueue a = new MyQueue();
-        a.push(1);
-        a.push(21);
-        System.out.println(a.empty());
-    }
-}
 class MyQueue {
     private Stack<Integer> stackA;
     private Stack<Integer> stackB;

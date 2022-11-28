@@ -54,7 +54,7 @@ public abstract class Base implements BaseInterface {
                 ", delivery=" + delivery +
                 ", magic=" + magic;
     }
-// String.format("? %d\t\uD83D\uDEE1 %d\t?%.1f\t?%d", attack,protect,health,(damage[0] + damage[1])/2,speed);
+
 
     @Override
     public void step(List<Base> gang) {
